@@ -2,7 +2,7 @@ body
 {
   font-family:Arial, sans-sherif;
   background-color:#FFCC99;
-  color:#FFCC99;
+color:#FF6633;
 }
 
 #wrapper {
@@ -25,7 +25,7 @@ body
   -webkit-border-top-right-radius: 1em;
   border-top-left-radius: 1em;
   border-top-right-radius: 1em;   
-  color:#FFCC99;
+  color:#FFFFFF;
 }
 #header h1
 {
@@ -63,7 +63,7 @@ body
 {
   display:inline-block;
   font-weight:bold;
-  color:#FFCC99;
+  color:#FFFFFF;
   background-color:#FF9966;
   width:120px;
   text-decoration:none;
@@ -72,6 +72,6 @@ body
 #navbar a:hover, a:active
 {
   color:#FF9966;
-  background-color:#FFCC99;
+  background-color:#FFFFFF;
 }
 
