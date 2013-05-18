@@ -17,6 +17,6 @@ am going. The blog will be diveded into two separate categories, professional an
 non-professional.
 
 Hopefully people find my blog interestining and maybe my future employer notice
-that I am one who they want to hire.
+that I am the one who they want to hire.
 
 
