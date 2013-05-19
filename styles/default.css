@@ -43,17 +43,6 @@ body
   text-align:center;
 } 
 
-#content
-{
-  padding-bottom:1em;
-  margin:2em;
-}
-
-#content p
-{
-  color:#000000;
-}
-
 #navbar
 {
   padding: 0.5em;
@@ -85,8 +74,46 @@ body
   background-color:#FFFFFF;
 }
 
+#content
+{
+  padding-bottom:1em;
+  margin:2em;
+}
+
+#content p
+{
+  color:#000000;
+}
+
+#content a:link
+{
+  text-decoration:underline;
+  color:#FF6633;
+}
+#content a:visited
+{
+  text-decoration:underline;
+  color:#FF6633;
+}
+
+#addbox
+{
+  float:right;
+  border-style:solid;
+  max-width: 30%;
+  margin:0.5em;
+  padding:1em;
+}
+
 #me
 {
   margin:1em;
   float:right;
+}
+
+#validated
+{
+  position:absolute;
+  bottom:0;
+  right:0;
 }
