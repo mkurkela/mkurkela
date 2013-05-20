@@ -3,12 +3,16 @@ layout: default
 title: Blog
 full_posts: 3
 ---
+{% unless post %}
+  {% assign post = page %}
+{% endunless %}
 {% for post in site.posts %}
   {% if forloop.index < page.full_posts %}
   <div class='post'>
     <span class='date'>{{post.date | date_to_string}}</span>
     <h2><a href='{{post.url}}'>{{post.title}}</a></h2>
     <div class='body'>{{post.content}}</div>
+    <a href='{{post.url}}#disqus_thread'>Comments</a>
   </div>
   {% else %}
     {% if forloop.index == page.full_posts %}

@@ -12,22 +12,25 @@ title: Mikko Kurkela's Website
   <p>My current job in CERN ends in 4th of July. I am looking for a job.
   Preferable in Rovaniemi. Other locations are also considered. Take a look at
   my <a href="/files/CV.pdf">CV</a></p>
-  <p>Allow javascript to see the email
+  <p>
   <script type="text/javascript">
-  <!--
+    <!--
     var contact = "Send email"
     var email = "mikko.sahkoposti"
     var emailHost = "gmail.com"
     document.write("<a href=" + "mail" + "to:" + email + "@" + emailHost+ ">" +
     contact + "</a>" + ".")
     //-->
-  </script></p>
+  </script>
+  </p>
+  <noscript><p>Allow javascript to see the email link</p></noscript>
 </div>
 
 <h2>The latest blog entry</h2>
 <div class='post'>
   <h2><a href='{{site.posts.first.url}}'>{{site.posts.first.title}}</a></h2>
   <div class='body'>{{ site.posts.first.content }}</div>
+  <a href='{{site.posts.first.url}}#disqus_thread'>Comments</a>
 </div>
 
 

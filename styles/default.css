@@ -2,23 +2,14 @@ body
 {
   font-family:Arial, sans-sherif;
   background-color:#FFCC99;
-  color:#FF6633;
 }
 
-.post a
-{
-  color:#FF6633;
-}
-
-.post a:visited
-{
-  color:#FF6633;
-}
 #wrapper
 {
   width:50em;
   margin:2em auto 0;
   padding:0;
+  color:#FF6633;
   background-color:#FFFFFF;
   -moz-border-radius:1.5em;
   -webkit-border-radius:1.5em;
@@ -37,6 +28,7 @@ body
   border-top-right-radius: 1em;   
   color:#FFFFFF;
 }
+
 #header h1
 {
   padding: 1em;
@@ -76,6 +68,7 @@ body
 
 #content
 {
+  color:#FF6633;
   padding-bottom:1em;
   margin:2em;
 }
@@ -83,6 +76,14 @@ body
 #content p
 {
   color:#000000;
+}
+.post a
+{
+  color:#FF6633;
+}
+.post a:visited
+{
+  color:#FF6633;
 }
 
 #content a:link
@@ -111,9 +112,12 @@ body
   float:right;
 }
 
+#disqus_thread
+{
+  color:#000000;
+}
 #validated
 {
-  position:absolute;
+  text-align:center;
   bottom:0;
-  right:0;
 }
