@@ -5,7 +5,7 @@ title: New challenges in Kajaani
 
 It has been a while since my last post. Last time I wrote about seeking a job.
 Not anymore as I was lucky to get one. Since the begin of August I have been
-working in Mecano, which is part of Raute Oy, in Kajaani. A very small city in
+working in Mecano, which is part of Raute Oy, in Kajaani. Kajaani is a very small city in
 the middle of nowhere. And thats one reason I wanted to go there. I also had
 interview invites to some companies in Helsinki and Tampere but Kajaani felt
 much better option for me. In Mecano I am going to work with analysing devices
